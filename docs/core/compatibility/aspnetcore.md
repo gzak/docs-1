@@ -2,7 +2,7 @@
 title: ASP.NET Core breaking changes
 titleSuffix: ""
 description: Lists the breaking changes in ASP.NET Core.
-ms.date: 06/11/2020
+ms.date: 06/23/2020
 author: scottaddie
 ms.author: scaddie
 ---
@@ -44,6 +44,7 @@ The following breaking changes are documented on this page:
 - [Identity: SignInAsync throws exception for unauthenticated identity](#identity-signinasync-throws-exception-for-unauthenticated-identity)
 - [Identity: SignInManager constructor accepts new parameter](#identity-signinmanager-constructor-accepts-new-parameter)
 - [Identity: UI uses static web assets feature](#identity-ui-uses-static-web-assets-feature)
+- [IIS: UrlRewrite middleware query strings are preserved](#iis-urlrewrite-middleware-query-strings-are-preserved)
 - [Kestrel: Configuration changes at run time detected by default](#kestrel-configuration-changes-at-run-time-detected-by-default)
 - [Kestrel: Connection adapters removed](#kestrel-connection-adapters-removed)
 - [Kestrel: Default supported TLS protocol versions changed](#kestrel-default-supported-tls-protocol-versions-changed)
@@ -91,6 +92,10 @@ The following breaking changes are documented on this page:
 ***
 
 [!INCLUDE[HTTP: Kestrel and IIS BadHttpRequestException types marked obsolete and replaced](~/includes/core-changes/aspnetcore/5.0/http-badhttprequestexception-obsolete.md)]
+
+***
+
+[!INCLUDE[IIS: UrlRewrite middleware query strings are preserved](~/includes/core-changes/aspnetcore/5.0/iis-urlrewrite-middleware-query-strings-are-preserved.md)]
 
 ***
 
